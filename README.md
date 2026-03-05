@@ -1,45 +1,39 @@
-# hungry
+# Hungry Flutter App 🍔
 
-Hungry App - Api
+Food ordering mobile application built with **Flutter** and connected to a **real REST API**.
 
-## File Structure
+## Highlights
+- Smooth splash screen experience
+- Authentication flow (Login / Sign up)
+- Home screen with categories and product listing
+- Product customization (spice level, toppings, side options)
+- Cart & checkout flow
+- Order history (demo)
+- Skeleton loading for better UX during API calls
 
-lib/
-core/
-constants/
-api_endpoints.dart
-app_colors.dart
-app_strings.dart
-network/
-api_service.dart
-api_exceptions.dart
-utils/
-helpers.dart
-validators.dart
+## Screenshots
 
+| Splash | Login | Sign up |
+|---|---|---|
+| ![](assets/screenshots/splash_screen.png) | ![](assets/screenshots/login_screen.png) | ![](assets/screenshots/signup_screen.png) |
 
-features/
-food/
+| Home | Product Details | Added to cart |
+|---|---|---|
+| ![](assets/screenshots/home_screen.png) | ![](assets/screenshots/product_details_screen.png) | ![](assets/screenshots/add_to_cart_popup.png) |
 
+| Cart (Loading) | Cart | Checkout |
+|---|---|---|
+| ![](assets/screenshots/cart_loading_screen.png) | ![](assets/screenshots/cart_screen.png) | ![](assets/screenshots/checkout_screen.png) |
 
+| Order History | Profile | Profile Updated |
+|---|---|---|
+| ![](assets/screenshots/order_history_screen.png) | ![](assets/screenshots/profile_screen.png) | ![](assets/screenshots/profile_update_success.png) |
 
+## Tech Stack
+- Flutter
+- REST API
+- Dio
+- SharedPreferences
 
-data/
-food_model.dart
-food_repository.dart
-
-
-
-view/
-
-
-food_list_view.dart
-food_detail_view.dart
-
-
-widgets/
-food_card.dart 
-
-
-root.dart
-main.dart
+## Notes
+- API used for demo/testing purposes, performance may vary (free/public API).

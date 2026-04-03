@@ -35,23 +35,21 @@ The app focuses on delivering a smooth user experience while handling real-world
 
 ## 📱 Screenshots
 
-### 🔹 Main Flow
+![](assets/screenshots/splash_screen.png)
+![](assets/screenshots/login_screen.png)
+![](assets/screenshots/signup_screen.png)
 
-| Splash | Login | Sign Up |
-|-------|-------|--------|
-| ![](assets/screens/splash.png) | ![](assets/screens/login.png) | ![](assets/screens/signup.png) |
+![](assets/screenshots/home_screen.png)
+![](assets/screenshots/product_details_screen.png)
+![](assets/screenshots/add_to_cart_popup.png)
 
-| Home | Product Details | Add to Cart |
-|------|----------------|------------|
-| ![](assets/screens/home.png) | ![](assets/screens/product.png) | ![](assets/screens/cart_added.png) |
+![](assets/screenshots/cart_loading_screen.png)
+![](assets/screenshots/cart_screen.png)
+![](assets/screenshots/checkout_screen.png)
 
-| Cart Loading | Cart | Checkout |
-|-------------|------|----------|
-| ![](assets/screens/cart_loading.png) | ![](assets/screens/cart.png) | ![](assets/screens/checkout.png) |
-
-| Order History | Profile | Profile Updated |
-|--------------|---------|----------------|
-| ![](assets/screens/orders.png) | ![](assets/screens/profile.png) | ![](assets/screens/profile_updated.png) |
+![](assets/screenshots/order_history_screen.png)
+![](assets/screenshots/profile_screen.png)
+![](assets/screenshots/profile_update_success.png)
 
 ---
 

@@ -1,33 +1,73 @@
 # Hungry Flutter App 🍔
 
-Food ordering mobile application built with **Flutter** and connected to a **real REST API**.
+A modern food ordering mobile application built using **Flutter** and connected to a real **REST API**.
 
-## Highlights
-- Smooth splash screen experience
+The app focuses on delivering a smooth user experience while handling real-world scenarios such as API integration, local storage, and UI performance.
+
+---
+
+## 🚀 Features
+
+- Smooth splash screen experience with animations
 - Authentication flow (Login / Sign up)
-- Home screen with categories and product listing
-- Product customization (spice level, toppings, side options)
+- Browse food items from API
+- Product details with customization options:
+  - Spice level
+  - Toppings
+  - Side options
+- Add to cart functionality
 - Cart & checkout flow
 - Order history (demo)
 - Skeleton loading for better UX during API calls
+- Clean and responsive UI
 
-## Screenshots
+---
 
-| Splash | Login | Sign up |
-|---|---|---|
-| ![](assets/screenshots/splash_screen.png) | ![](assets/screenshots/login_screen.png) | ![](assets/screenshots/signup_screen.png) |
+## 🛠 Tech Stack
 
-| Home | Product Details | Added to cart |
-|---|---|---|
-| ![](assets/screenshots/home_screen.png) | ![](assets/screenshots/product_details_screen.png) | ![](assets/screenshots/add_to_cart_popup.png) |
+- **Flutter**
+- **Dio** (API handling & networking)
+- **REST APIs**
+- **SharedPreferences** (local storage)
+- **Animations**
 
-| Cart (Loading) | Cart | Checkout |
-|---|---|---|
-| ![](assets/screenshots/cart_loading_screen.png) | ![](assets/screenshots/cart_screen.png) | ![](assets/screenshots/checkout_screen.png) |
+---
+
+## 📱 Screenshots
+
+### 🔹 Main Flow
+
+| Splash | Login | Sign Up |
+|-------|-------|--------|
+| ![](assets/screens/splash.png) | ![](assets/screens/login.png) | ![](assets/screens/signup.png) |
+
+| Home | Product Details | Add to Cart |
+|------|----------------|------------|
+| ![](assets/screens/home.png) | ![](assets/screens/product.png) | ![](assets/screens/cart_added.png) |
+
+| Cart Loading | Cart | Checkout |
+|-------------|------|----------|
+| ![](assets/screens/cart_loading.png) | ![](assets/screens/cart.png) | ![](assets/screens/checkout.png) |
 
 | Order History | Profile | Profile Updated |
-|---|---|---|
-| ![](assets/screenshots/order_history_screen.png) | ![](assets/screenshots/profile_screen.png) | ![](assets/screenshots/profile_update_success.png) |
+|--------------|---------|----------------|
+| ![](assets/screens/orders.png) | ![](assets/screens/profile.png) | ![](assets/screens/profile_updated.png) |
+
+---
+
+## ⚠️ Notes
+
+- The API used is for demo/testing purposes (public/free API).
+- Some features like order history are simulated.
+
+---
+
+## 💡 What I Learned
+
+- Working with real-world REST APIs using Dio
+- Handling loading, error, and empty states
+- Managing local data using SharedPreferences
+- Building scalable and maintainable UI in Flutter
 
 ## Tech Stack
 - Flutter

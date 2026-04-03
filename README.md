@@ -1,5 +1,7 @@
 # Hungry Flutter App 🍔
 
+![](assets/screenshots/home_screen.png)
+
 A modern food ordering mobile application built using **Flutter** and connected to a real **REST API**.
 
 The app focuses on delivering a smooth user experience while handling real-world scenarios such as API integration, local storage, and UI performance.
@@ -35,28 +37,23 @@ The app focuses on delivering a smooth user experience while handling real-world
 
 ## 📱 Screenshots
 
-![](assets/screenshots/splash_screen.png)
-![](assets/screenshots/login_screen.png)
-![](assets/screenshots/signup_screen.png)
+### 🔹 Main Flow
 
-![](assets/screenshots/home_screen.png)
-![](assets/screenshots/product_details_screen.png)
-![](assets/screenshots/add_to_cart_popup.png)
+| Splash | Login | Sign Up |
+|--------|-------|--------|
+| ![](assets/screenshots/splash_screen.png) | ![](assets/screenshots/login_screen.png) | ![](assets/screenshots/signup_screen.png) |
 
-![](assets/screenshots/cart_loading_screen.png)
-![](assets/screenshots/cart_screen.png)
-![](assets/screenshots/checkout_screen.png)
+| Home | Product Details | Add to Cart |
+|------|----------------|------------|
+| ![](assets/screenshots/home_screen.png) | ![](assets/screenshots/product_details_screen.png) | ![](assets/screenshots/add_to_cart_popup.png) |
 
-![](assets/screenshots/order_history_screen.png)
-![](assets/screenshots/profile_screen.png)
-![](assets/screenshots/profile_update_success.png)
+| Cart Loading | Cart | Checkout |
+|--------------|------|----------|
+| ![](assets/screenshots/cart_loading_screen.png) | ![](assets/screenshots/cart_screen.png) | ![](assets/screenshots/checkout_screen.png) |
 
----
-
-## ⚠️ Notes
-
-- The API used is for demo/testing purposes (public/free API).
-- Some features like order history are simulated.
+| Order History | Profile | Profile Updated |
+|---------------|---------|----------------|
+| ![](assets/screenshots/order_history_screen.png) | ![](assets/screenshots/profile_screen.png) | ![](assets/screenshots/profile_update_success.png) |
 
 ---
 
@@ -67,11 +64,9 @@ The app focuses on delivering a smooth user experience while handling real-world
 - Managing local data using SharedPreferences
 - Building scalable and maintainable UI in Flutter
 
-## Tech Stack
-- Flutter
-- REST API
-- Dio
-- SharedPreferences
+---
 
-## Notes
-- API used for demo/testing purposes, performance may vary (free/public API).
+## ⚠️ Notes
+
+- The API used is for demo/testing purposes (public/free API)
+- Some features like order history are simulated

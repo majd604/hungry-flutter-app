@@ -1,7 +1,5 @@
 # Hungry Flutter App 🍔
 
-![](assets/screenshots/home_screen.png)
-
 A modern food ordering mobile application built using **Flutter** and connected to a real **REST API**.
 
 The app focuses on delivering a smooth user experience while handling real-world scenarios such as API integration, local storage, and UI performance.
